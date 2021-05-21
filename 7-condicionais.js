@@ -9,7 +9,7 @@ const idadeComprador = 18;
 const estaAcompanhada = false;
 const temPassagemComprada = true;
 
-console.log("Destinos possíveis:");
+console.log("\nDestinos possíveis:");
 console.log(listaDeDestinos);
 
 // if (idadeComprador >= 18) {
@@ -35,7 +35,6 @@ if(idadeComprador >= 18 && temPassagemComprada){
 }else{
     console.log("Você não pode embarcar");
 }
-
 
 console.log(listaDeDestinos);
 
